@@ -1,0 +1,52 @@
+nav {
+  padding-left: 8px !important;
+  background-color: #9ac4a7;
+  border-bottom: 0px solid rgb(250, 252, 253);
+}
+
+nav ul {
+  margin-left: 50px;
+  padding-top: 6px;
+  font-size: 1rem;
+}
+
+nav li {
+  float: left;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #060d11;
+}
+
+.top-section {
+  height: 500px;
+  background-image: url('./house-background.jpg'), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 1)));
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+
+.top-section h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding-top: 10%;
+  text-align: center;
+  color: white;
+}
+
+.top-section .subtitle {
+  font-size: 25px;
+  text-align: center;
+}
+
+.content {
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer {
+  height: 100px;
+  background-color: #a7ac59;
+}
